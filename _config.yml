@@ -1,0 +1,61 @@
+# ==============================================================
+#  GolStar98 – Projeto FT450
+#  Configuração do site técnico para GitHub Pages (Just the Docs)
+# ==============================================================
+#  Mantenha este arquivo na raiz do repositório.
+#  Certifique-se de que as Pages estão configuradas para publicar
+#  a partir da pasta "/docs" (Settings → Pages → Build from /docs)
+# ==============================================================
+
+# 🔖 Identificação
+title: "GolStar98 – Projeto FT450"
+description: "Documentação técnica completa do projeto GolStar98 com ECU FuelTech FT450."
+
+# 🧩 Tema
+remote_theme: just-the-docs/just-the-docs
+
+# 🌐 URLs
+url: "https://brunoleaomaia.github.io"
+baseurl: "/golstar98-ft450"
+
+# 🧭 Navegação e visual
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+logo: false
+
+# 🔍 Busca
+search:
+  heading_level: 2
+  previews: 3
+  rel_url: true
+  button: true
+
+# 🔗 Links adicionais
+aux_links:
+  "Ver no GitHub":
+    - "https://github.com/brunoleaomaia/golstar98-ft450"
+
+# 🧭 Estrutura de navegação
+nav_external_links:
+  - title: "FuelTech"
+    url: "https://www.fueltech.com.br/"
+    hide_icon: false
+  - title: "FT Education"
+    url: "https://fteducation.com.br/"
+    hide_icon: false
+
+# 🧱 Plugins necessários (habilita o tema remoto)
+plugins:
+  - jekyll-remote-theme
+
+# 📄 Exclui arquivos não necessários do build
+exclude:
+  - README.md
+  - SUMMARY.md
+  - "*.zip"
+  - "*.html"
+  - "*.pdf"
+
+# 🧭 Ordem padrão dos arquivos
+nav_sort: case_insensitive
