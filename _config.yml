@@ -1,5 +1,6 @@
 title: "GolStar98 – Projeto FT450"
 description: "Documentação técnica completa do projeto GolStar98 com ECU FuelTech FT450."
+theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
