@@ -1,6 +1,5 @@
 title: "GolStar98 – Projeto FT450"
 description: "Documentação técnica completa do projeto GolStar98 com ECU FuelTech FT450."
-theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
@@ -8,6 +7,7 @@ url: "https://brunoleaomaia.github.io"
 baseurl: "/golstar98-ft450"
 logo: false
 color_scheme: dark
+layout: default
 nav_enabled: true
 nav_sort: case_insensitive
 heading_anchors: true
