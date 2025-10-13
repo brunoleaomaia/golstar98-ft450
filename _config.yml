@@ -59,3 +59,5 @@ exclude:
 
 # 🧭 Ordem padrão dos arquivos
 nav_sort: case_insensitive
+
+nav_enabled: true
