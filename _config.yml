@@ -1,7 +1,7 @@
 title: Projeto FT450
 subtitle: Documentação Técnica
 description: Documentação técnica do projeto FT450 no Gol G2 1.6 MI (1998)
-remote_theme: just-the-docs/just-the-docs
+remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.5
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
