@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: home
 title: GolStar98 – Projeto FT450
-nav_order: 1
-description: Página inicial da documentação técnica do GolStar98 com ECU FuelTech FT450
+# Index page
 ---
 
 # GolStar98 – Projeto FT450
