@@ -24,7 +24,11 @@ O objetivo é documentar de forma detalhada a evolução elétrica e lógica do 
 ---
 
 ### Estrutura das Fases
+
+{% capture tabela_fases %}
 {% include_relative tabelas/fases-do-projeto.md %}
+{% endcapture %}
+{{ tabela_fases | markdownify }}
 
 ---
 
