@@ -27,7 +27,7 @@ jobs:
 
       # Se seus .md estão em /docs, aponte o --source para lá:
       - run: bundle install
-      - run: bundle exec jekyll build --source docs --destination _site
+      - run: bundle exec jekyll build --source docs --config _config.yml --destination _site
 
       - uses: actions/upload-pages-artifact@v3
         with:
