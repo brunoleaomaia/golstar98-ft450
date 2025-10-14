@@ -1,9 +1,10 @@
 source "https://rubygems.org"
-gem "jekyll"
+
+gem "jekyll", "~> 4.3"
 gem "jekyll-remote-theme"
 gem "jekyll-seo-tag"
-gem "jekyll-include-cache"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-gem "jekyll-default-layout"
-gem "just-the-docs"
+
+# Para dev local com `bundle exec jekyll serve`
+group :development do
+  gem "webrick"
+end

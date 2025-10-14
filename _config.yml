@@ -1,37 +1,13 @@
-title: "GolStar98 – Projeto FT450"
-description: "Documentação técnica completa do projeto GolStar98 com ECU FuelTech FT450."
-theme: just-the-docs
+title: GolStar98 – Projeto FT450
+description: Documentação técnica do projeto FT450 no Gol G2 1.6 MI (1998)
 remote_theme: just-the-docs/just-the-docs
 plugins:
-  - jekyll-default-layout
   - jekyll-remote-theme
-url: "https://brunoleaomaia.github.io"
-baseurl: "/golstar98-ft450"
-logo: false
-color_scheme: dark
-layout: default
-nav_enabled: true
-nav_sort: case_insensitive
-heading_anchors: true
+  - jekyll-seo-tag
+url: https://brunoleaomaia.github.io
+baseurl: /golstar98-ft450
 search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  rel_url: true
-  button: true
+color_scheme: dark
 aux_links:
-  "Ver no GitHub":
+  "Repositório no GitHub":
     - "https://github.com/brunoleaomaia/golstar98-ft450"
-nav_external_links:
-  - title: "FuelTech"
-    url: "https://www.fueltech.com.br/"
-    hide_icon: false
-  - title: "FT Education"
-    url: "https://fteducation.com.br/"
-    hide_icon: false
-exclude:
-  - README.md
-  - SUMMARY.md
-  - "*.zip"
-  - "*.html"
-  - "*.pdf"
