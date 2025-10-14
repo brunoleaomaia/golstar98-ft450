@@ -1,30 +1,30 @@
 ---
-layout: page
-title: GolStar98 – Projeto FT450
+layout: home
+title: GolStar98 FT450
 nav_order: 1
 description: Página inicial da documentação técnica do GolStar98 com ECU FuelTech FT450
 ---
 
-# GolStar98 – Projeto FT450
+## GolStar98 FT450
 
-Bem-vindo à documentação técnica do **GolStar98**, um projeto de modernização do sistema de gerenciamento eletrônico do **Volkswagen Gol G2 1.6 MI (1998)** utilizando a **ECU FuelTech FT450**.
+Bem-vindo à documentação técnica do **GolStar98 FT450**, um projeto de modernização do sistema de gerenciamento eletrônico do **Volkswagen Gol G2 1.6 MI (1998)** utilizando a **ECU FuelTech FT450**.
 
 O objetivo é documentar de forma detalhada a evolução elétrica e lógica do veículo — desde o sistema **aspirado original** até o estágio **turbo-ready**, mantendo compatibilidade total entre todas as fases.
 
 ---
 
-## 🧭 Navegação principal
+### Navegação principal
 
-- 📖 [Índice de Documentação](indice)  
+- [Índice de Documentação](indice)  
   Sumário completo com links para todos os tópicos técnicos do projeto.
 
-- 🧩 [Roadmap de Evolução](roadmap)  
+- [Roadmap de Evolução](roadmap)  
   Linha do tempo com as cinco fases do sistema (🟩 Base aspirada → ⚫ Turbo).
 
 ---
 
-## ⚙️ Estrutura das Fases
-[tabela-de-fases.md](tabela-de-fases.md)
+### Estrutura das Fases
+{% include_relative tabelas/fases-do-projeto.md %}
 
 ---
 
