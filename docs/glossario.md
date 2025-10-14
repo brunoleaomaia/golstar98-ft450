@@ -1,16 +1,23 @@
 ---
-layout: default
-title: Glossário Técnico
+layout: page
+title: Glossário
 nav_order: 100
 ---
 
-# 📚 Glossário Técnico – GolStar98 FT450
+# Glossário
+{: .no_toc }
+
+## Tabela de Conteúdo
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
 
 Lista de siglas, abreviações e termos técnicos utilizados em toda a documentação do projeto **GolStar98 – Projeto FT450**.
 
 ---
 
-## 🔠 Siglas e Termos Técnicos
+## Siglas e Termos Técnicos
 
 | Sigla / Termo | Descrição |
 |----------------|------------|
@@ -24,8 +31,8 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 | **DIx** | *Digital Input* – entradas digitais da ECU (ex.: DI1, DI2) para sinais on/off como AC Request ou Pressão DH. |
 | **ECT** | *Engine Coolant Temperature* – temperatura do líquido de arrefecimento do motor, medida por sensor NTC. |
 | **ECU** | *Electronic Control Unit* – unidade eletrônica de controle (neste caso, a FuelTech FT450). Responsável por gerenciar ignição, injeção e proteções. |
-| **EV1 / EV6** | Padrões de conectores Bosch usados em injetores e solenoides automotivos. |
-| **FT** | *FuelTech* | Fabricante brasileira de ECUs e acessórios de gerenciamento eletrônico automotivo. |
+| **EV1/EV6** | Padrões de conectores Bosch usados em injetores e solenoides automotivos. |
+| **FuelTech/FT** | Fabricante brasileira de ECUs e acessórios de gerenciamento eletrônico automotivo. |
 | **FT450** | Modelo de ECU da FuelTech, com suporte a 4 cilindros, sensores analógicos, saídas PWM e comunicação CAN. |
 | **FTManager** | Software oficial da FuelTech usado para configuração, calibração e diagnóstico da ECU FT450. |
 | **GND** | *Ground* – terra elétrico. Referência de 0 V para todos os sensores e atuadores. |
@@ -49,7 +56,7 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 
 ---
 
-## 🧰 Conectores e Componentes
+## Conectores e Componentes
 
 | Termo | Descrição |
 |--------|------------|
@@ -61,7 +68,7 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 
 ---
 
-## 🧠 Termos Técnicos Complementares
+## Termos Técnicos Complementares
 
 - **Failsafe:** Estratégia de segurança que corta ignição/injeção em caso de falha de sensores críticos.  
 - **Idle-up:** Aumento automático da rotação de marcha-lenta quando o A/C ou a direção hidráulica são acionados.  
@@ -72,7 +79,7 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 
 ---
 
-## 🧠 Notas Finais
+## Notas Finais
 
 - Todas as siglas aqui listadas aparecem nos documentos técnicos do repositório.  
 - Este glossário deve ser atualizado sempre que novos sensores, atuadores ou termos forem adicionados.  
@@ -80,4 +87,4 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 
 ---
 
-_Conteúdo do rodapé disponível em [rodape.md](rodape.md)._
+{% include_relative rodape.md %}
