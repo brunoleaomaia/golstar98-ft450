@@ -15,10 +15,10 @@ O objetivo é documentar de forma detalhada a evolução elétrica e lógica do 
 
 ## 🧭 Navegação principal
 
-- 📖 [Índice de Documentação](indice.md)  
+- 📖 [Índice de Documentação](indice)  
   Sumário completo com links para todos os tópicos técnicos do projeto.
 
-- 🧩 [Roadmap de Evolução](roadmap.md)  
+- 🧩 [Roadmap de Evolução](roadmap)  
   Linha do tempo com as cinco fases do sistema (🟩 Base aspirada → ⚫ Turbo).
 
 ---
