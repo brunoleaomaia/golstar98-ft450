@@ -12,7 +12,7 @@ Bem-vindo à documentação técnica do projeto **GolStar98 FT450**, um projeto 
 O objetivo é documentar de forma detalhada a evolução elétrica e lógica do veículo — desde o sistema _aspirado original_ até o estágio _turbo-ready_, mantendo compatibilidade total entre todas as fases.
 
 [Roadmap de Evolução](rodamap){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Glossário][glossario]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[Glossário](glossario){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
