@@ -7,19 +7,12 @@ description: Página inicial da documentação técnica do GolStar98 com ECU Fue
 
 # Bem-vindo
 
-Bem-vindo à documentação técnica do projeto **GolStar98 FT450**, um projeto de modernização do sistema de gerenciamento eletrônico do **Volkswagen Gol G2 1.6 MI (1998)** utilizando a **ECU FuelTech FT450**.
+Bem-vindo à documentação técnica do projeto **GolStar98 FT450**, um projeto de modernização do sistema de gerenciamento eletrônico do Volkswagen Gol G2 1.6 MI (1998) utilizando a ECU FuelTech FT450.
 
-O objetivo é documentar de forma detalhada a evolução elétrica e lógica do veículo — desde o sistema **aspirado original** até o estágio **turbo-ready**, mantendo compatibilidade total entre todas as fases.
+O objetivo é documentar de forma detalhada a evolução elétrica e lógica do veículo — desde o sistema _aspirado original_ até o estágio _turbo-ready_, mantendo compatibilidade total entre todas as fases.
 
----
-
-### Navegação principal
-
-- [Índice de Documentação](indice)  
-  Sumário completo com links para todos os tópicos técnicos do projeto.
-
-- [Roadmap de Evolução](roadmap)  
-  Linha do tempo com as cinco fases do sistema (<span class="d-inline-block p-2 mr-1 v-align-middle bg-green-000"></span> Base aspirada → <span class="d-inline-block p-2 mr-1 v-align-middle bg-purple-000"></span> Turbo).
+[Roadmap de Evolução](rodamap){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Glossário][glossario]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -43,6 +36,7 @@ O objetivo é documentar de forma detalhada a evolução elétrica e lógica do 
 
 ## 🧱 Organização do Repositório
 
+<pre>
 /docs/
 ├─ index.md → Esta página inicial
 ├─ indice.md → Sumário completo dos tópicos
@@ -59,7 +53,6 @@ O objetivo é documentar de forma detalhada a evolução elétrica e lógica do 
 ├─ changelog.md → Registro de alterações
 ├─ glossario.md → Glossário técnico
 └─ rodape.md → Rodapé padrão compartilhado
-
----
+</pre>
 
 {% include_relative rodape.md %}
