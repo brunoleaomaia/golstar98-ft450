@@ -58,4 +58,4 @@ O objetivo é documentar de forma detalhada a evolução elétrica e lógica do 
 
 ---
 
-_Conteúdo do rodapé disponível em [rodape.md](rodape.md)._
+{% include_relative rodape.md %}
