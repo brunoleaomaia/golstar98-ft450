@@ -6,16 +6,13 @@ nav_order: 100
 
 # Glossário
 {: .no_toc }
+Lista de siglas, abreviações e termos técnicos utilizados em toda a documentação do projeto **GolStar98 – Projeto FT450**.
 
 ## Tabela de Conteúdo
 {: .no_toc .text-delta}
 
 1. TOC
 {:toc}
-
-Lista de siglas, abreviações e termos técnicos utilizados em toda a documentação do projeto **GolStar98 – Projeto FT450**.
-
----
 
 ## Siglas e Termos Técnicos
 
@@ -41,7 +38,7 @@ Lista de siglas, abreviações e termos técnicos utilizados em toda a documenta
 | **IGNx** | *Ignition Output* – saídas de ignição da FT450 (IGN A–D), usadas para acionar bobinas. |
 | **INJx** | *Injector Output* – saídas de injeção da ECU (INJ A–D), controlam os bicos injetores. |
 | **Lambda** | Sensor de oxigênio usado para medir AFR. Pode ser narrowband (OEM) ou wideband (preciso). |
-| **LED** | *Light Emitting Diode* | Indicadores luminosos usados na ECU e painéis. |
+| **LED** | *Light Emitting Diode* – Indicadores luminosos usados na ECU e painéis. |
 | **LPH** | *Litros por Hora* – unidade de medida de vazão de bomba de combustível (ex.: 255 LPH). |
 | **MAP** | *Manifold Absolute Pressure* – sensor de pressão absoluta do coletor. Mede vácuo e sobrepressão. |
 | **NTC** | *Negative Temperature Coefficient* – tipo de sensor resistivo cuja resistência diminui com o aumento da temperatura. Usado em IAT e ECT. |
