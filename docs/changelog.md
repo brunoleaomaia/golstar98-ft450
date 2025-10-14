@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 5
 ---
-# 🧾 Changelog – GolStar98 FT450
+# Changelog
 
 ## Versão 1.0 – Outubro / 2025
 Primeira publicação da documentação técnica em Markdown.
