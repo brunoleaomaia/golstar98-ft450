@@ -1,0 +1,45 @@
+title: GolStar98 FT450
+description: Documentação técnica do projeto FT450 no Gol G2 1.6 MI (1998)
+theme: just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+url: https://brunoleaomaia.github.io
+baseurl: /golstar98-ft450
+search_enabled: true
+color_scheme: light
+aux_links:
+  "Repositório no GitHub":
+    - "https://github.com/brunoleaomaia/golstar98-ft450"
+  "Instagram":
+    - "https://www.instagram.com/golstar98/"
+nav_enabled: true
+back_to_top: false
+back_to_top_text: "Voltar ao Topo"
+search:
+  text: "Pesquisar..."
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+#VARIAVEIS DO PROJETO
+version: "1.0.0"
+release_date: "2025-10-13"
+fases:
+  f1: '<span class="d-inline-block p-2 mr-1 v-align-middle bg-green-000"></span>'
+  f2: '<span class="d-inline-block p-2 mr-1 v-align-middle bg-blue-000"></span>'
+  f3: '<span class="d-inline-block p-2 mr-1 v-align-middle bg-yellow-000"></span>'
+  f4: '<span class="d-inline-block p-2 mr-1 v-align-middle bg-red-000"></span>'
+  f5: '<span class="d-inline-block p-2 mr-1 v-align-middle bg-purple-000"></span>'

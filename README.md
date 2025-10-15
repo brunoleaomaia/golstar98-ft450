@@ -56,8 +56,11 @@ Se quiser visualizar o site Just the Docs localmente antes de publicar:
 # Instalar Jekyll e dependências
 gem install bundler jekyll
 
+# Instalar dependências
+bundle install
+
 # Rodar localmente
-bundle exec jekyll serve --source docs
+bundle exec jekyll serve --source docs --livereload
 ````
 
 Depois, acesse:

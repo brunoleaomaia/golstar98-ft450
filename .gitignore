@@ -1,0 +1,41 @@
+# Jekyll specific files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler specific files
+.bundle/
+vendor/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Byebug command history
+.byebug_history
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Coverage reports (if using test coverage tools)
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# IDE specific files
+.idea/
+.vscode/

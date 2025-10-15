@@ -1,25 +1,30 @@
 ---
 layout: default
 title: Changelog
-nav_order: 5
+nav_order: 99
 ---
 # Changelog
+Registro de Todas as Alterações da Documentação Técnica.
 
-## Versão 1.0 – Outubro / 2025
-Primeira publicação da documentação técnica em Markdown.
+---
+## Versão 1.0.0
+`13/10/2025`
+
+Primeira publicação da documentação técnica.
 
 ### Inclusões
 - Estrutura completa dos arquivos `.md`.
-- Tabelas de pinagem, sensores, atuadores e relés.
-- Seções de pigtails e roadmap com fases 🟩 → ⚫.
-- Rodapé padronizado.
-- Preparação para geração automática do glossário.
+- GitHub Pages com tema Just the Docs.
+- Roadmap de evolução com fases.
+- Tabelas de pinagem, sensores, atuadores, relés, fusíveis e pigtails.
+- Glossário com termos técnicos.
 
 ### Próximos Passos
 - Definição de sensores e atuadores específicos por modelo.
 - Inclusão de imagens e diagramas esquemáticos.
-- Publicação no GitHub Pages com tema técnico.
+- Cronograma de Execução.
+- Lista de Peças.
 
 ---
 
-_Conteúdo do rodapé disponível em [rodape.md](rodape.md)._
+{% include_relative rodape.md %}
