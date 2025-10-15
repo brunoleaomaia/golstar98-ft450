@@ -98,4 +98,10 @@ Este diagrama resume o fluxo funcional entre sensores, a ECU FuelTech FT450 e os
 
 ---
 
+[Roadmap de Evolução](roadmap){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Sensores e Atuadores](sensores-atuadores){: .btn .btn-primary .mb-4 .mb-md-0 .mr-2 }
+
+---
+
+
 {% include_relative rodape.md %}

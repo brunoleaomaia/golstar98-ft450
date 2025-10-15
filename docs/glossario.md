@@ -127,4 +127,9 @@ Eles permitem:
 
 ---
 
+[Changelog](changelog){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Roadmap de Evolução](roadmap){: .btn .btn-primary .mb-4 .mb-md-0 .mr-2 }
+
+---
+
 {% include_relative rodape.md %}

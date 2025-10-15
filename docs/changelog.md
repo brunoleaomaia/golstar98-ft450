@@ -27,4 +27,9 @@ Primeira publicação da documentação técnica.
 
 ---
 
+[Checklists](checklists){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Glossário](glossario){: .btn .btn-primary .mb-4 .mb-md-0 .mr-2 }
+
+---
+
 {% include_relative rodape.md %}

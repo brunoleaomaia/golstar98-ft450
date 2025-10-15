@@ -41,4 +41,9 @@ Lista dos sensores e atuad instalados ou previstos no projeto, suas funções, c
 
 ---
 
+[Chicotes e Pinagem](chicotes-pinagem){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Checklists](checklists){: .btn .btn-primary .mb-4 .mb-md-0 .mr-2 }
+
+---
+
 {% include_relative rodape.md %}

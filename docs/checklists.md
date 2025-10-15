@@ -32,4 +32,8 @@ Este checklist define as etapas obrigatórias de verificação elétrica, lógic
 
 ---
 
+[Sensores e Atuadores](sensores-atuadores){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Changelog](changelog){: .btn .btn-primary .mb-4 .mb-md-0 .mr-2 }
+
+---
 {% include_relative rodape.md %}

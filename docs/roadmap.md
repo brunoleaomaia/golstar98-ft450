@@ -24,34 +24,38 @@ Este projeto foi estruturado em cinco fases de evolução planejadas, garantindo
 
 ---
 
-## Diagrama Lógico
+## Lógica de Operação por Fase
 
-O diagrama lógico representa o comportamento interno da ECU FT450 e a relação entre as condições de entrada e os comandos de saída em cada fase de operação do GolStar98.
+A seguir são descritas as fases de operação do sistema de gerenciamento eletrônico do **GolStar98** utilizando a **ECU FuelTech FT450**.  
+Cada fase representa uma etapa evolutiva da configuração, com diferentes sensores, atuadores e estratégias de controle.
 
-### Lógica de Operação por Sistemas
-
-#### {{site.fases.f1}} Fase 1 – Base Aspirada
+### {{site.fases.f1}} Fase 1 – Base Aspirada
+{: .text-delta }
 - Leitura de TPS, MAP interno, rotação e temperatura (ECT).  
 - Controle de injeção em modo batch (INJ A–D).  
 - Ignição por distribuidor (IGN A–B).  
 - Acionamento da bomba via relé (AUX1).  
 
-#### {{site.fases.f2}} Fase 2 – Sensores e Proteções
+### {{site.fases.f2}} Fase 2 – Sensores e Proteções
+{: .text-delta }
 - Ativação de sensores auxiliares: IAT, ECT, Pressão de Óleo e Combustível.  
 - Lógica de **idle-up** para A/C e direção hidráulica.  
 - Acionamento automático dos ventiladores (AUX2 e AUX3).  
 - Ativação de failsafes (óleo, combustível e temperatura).  
 
-#### {{site.fases.f3}} Fase 3 – Ignição Moderna
+### {{site.fases.f3}} Fase 3 – Ignição Moderna
+{: .text-delta }
 - Substituição do distribuidor por roda fônica 60-2 e bobinas individuais (COP).  
 - FT450 passa a gerar **sincronismo sequencial**.  
 - Ajuste de avanço por rotação e carga.  
 
-#### {{site.fases.f4}} Fase 4 – Alimentação Definitiva
+### {{site.fases.f4}} Fase 4 – Alimentação Definitiva
+{: .text-delta }
 - Controle refinado de bomba de combustível 255 LPH.  
 - Monitoramento ativo de pressão e delta MAP/Combustível.  
 
-#### {{site.fases.f5}}  Fase 5 – Turbo
+### {{site.fases.f5}}  Fase 5 – Turbo
+{: .text-delta }
 - Adição de controle de **solenoide PWM** para boost.  
 - Ativação de sensor MAP 3–4 bar.  
 - Ajustes de AFR e avanço por pressão (malha fechada).  
@@ -63,6 +67,10 @@ O diagrama lógico representa o comportamento interno da ECU FT450 e a relação
 > - A FT450 suporta operação full-sequential com até 4 cilindros.  
 > - Os mapas devem ser versionados conforme o avanço das fases.  
 
+---
+
+[Home](index){: .btn .mb-4 .mb-md-0 .mr-2 }
+[Chicote e Pinagem](chicote-pinagem){: .btn .btn-primary  .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
